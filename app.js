@@ -8,7 +8,7 @@ require('dotenv').config()
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const authRouter = require('./routes/register');
+const Router = require('./routes/register');
 const categoriesRouter = require('./routes/categories');
 
 
